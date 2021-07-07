@@ -172,3 +172,32 @@ li:hover {
     transform: scale(1.05);
 
 }
+
+@media (max-width: 1000px) {
+
+    #pageBox {
+        width: 100%;
+    }
+
+    #educationHeading {
+        padding-top: 25px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #educationHeading {
+        padding-top: 100px;
+    }
+
+    .column {
+        padding-left: 0%;
+    }
+
+    #referenceWrapper {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+}
