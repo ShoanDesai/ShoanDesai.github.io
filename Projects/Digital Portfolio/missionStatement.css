@@ -1,0 +1,23 @@
+body {
+    background-color: #bcc5da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: start;
+    margin:0;
+    padding:0;
+}
+
+#pageBox {
+    height: 100%;
+    width: 70%;
+    background-color: #151b29;
+    box-shadow: 30px 0 15px -4px grey, -30px 0 8px -4px grey;
+
+}
+
+#title {
+    text-align: center;
+    color: rgb(251, 195, 121);
+    transition: all 1s;
+}
