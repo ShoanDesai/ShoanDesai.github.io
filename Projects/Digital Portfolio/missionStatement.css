@@ -6,18 +6,37 @@ body {
     align-self: start;
     margin:0;
     padding:0;
+    color: #ffe494;
+
 }
 
 #pageBox {
     height: 100%;
-    width: 70%;
-    background-color: #151b29;
+    width: 80%;
+    background-color: #01012e;
     box-shadow: 30px 0 15px -4px grey, -30px 0 8px -4px grey;
-
 }
 
 #title {
     text-align: center;
-    color: rgb(251, 195, 121);
+    color: #ffe494;
     transition: all 1s;
+}
+
+#statement {
+    text-align: center;
+    color: #f7c70c;
+}
+
+h3 {
+    color: #ffe494;
+    padding-left: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-left: 2em;
 }
