@@ -31,6 +31,7 @@ body {
 h3 {
     color: #ffe494;
     padding-left: 2em;
+    padding-right: 2em;
 }
 
 ul {
@@ -39,4 +40,5 @@ ul {
 
 li {
     padding-left: 2em;
+    padding-right: 2em;
 }
