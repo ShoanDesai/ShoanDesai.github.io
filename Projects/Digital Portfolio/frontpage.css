@@ -63,6 +63,10 @@ h1:hover {
     border-bottom: solid  2px rgb(28, 174, 194);
 }
 
+#missionStatement {
+    font-size: 24px;
+}
+
 @media (max-width: 620px) {
 
 

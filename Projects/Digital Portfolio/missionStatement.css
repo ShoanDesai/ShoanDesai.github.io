@@ -42,3 +42,38 @@ li {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+button {
+    background: none;
+    color: #e08815;
+    width: 300px;
+    height: 100px;
+    border: 2px solid;
+    padding: 1em 2em;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    transition: border-color 0.25s, color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+button:hover {
+    border-color: rgb(255, 8, 0);
+    color: rgb(238, 174, 172);
+    box-shadow: 0 0.5em 0.5em -0.4em #fbff00fa;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#buttorWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+
+    #pageBox {
+        width: 100%;
+    }
+
+}
