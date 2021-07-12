@@ -187,9 +187,6 @@ li:hover {
 
 @media (max-width: 600px) {
 
-    #pageBox {
-        width: 100%;
-    }
 
     #educationHeading {
         padding-top: 100px;
