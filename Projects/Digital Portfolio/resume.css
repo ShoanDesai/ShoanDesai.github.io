@@ -177,6 +177,7 @@ li:hover {
 
     #pageBox {
         width: 100%;
+        overflow-x: hidden;
     }
 
     #educationHeading {
@@ -187,6 +188,10 @@ li:hover {
 
 @media (max-width: 600px) {
 
+    #pageBox {
+        width: 100%;
+        overflow-x: hidden;
+    }
 
     #educationHeading {
         padding-top: 100px;
