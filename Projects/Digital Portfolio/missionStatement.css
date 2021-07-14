@@ -23,15 +23,32 @@ body {
     transition: all 1s;
 }
 
+#title:hover {
+    color: #e4472b;
+    transform: scale(1.50);
+}
+
 #statement {
     text-align: center;
     color: #f7c70c;
+    transition: all 0.5s; 
 }
+
+#statement:hover {
+    color: #ece9dc;
+    transform: scale(1.05);
+}
+
 
 h3 {
     color: #ffe494;
     padding-left: 2em;
     padding-right: 2em;
+    transition: all 0.5s; 
+}
+
+h3:hover {
+    color: #ece9dc;
 }
 
 ul {
@@ -41,6 +58,11 @@ ul {
 li {
     padding-left: 2em;
     padding-right: 2em;
+    transition: all 1s;   
+}
+
+li:hover {
+    transform: scale(1.05);
 }
 
 button {
