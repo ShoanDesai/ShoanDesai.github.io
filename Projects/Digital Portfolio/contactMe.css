@@ -1,0 +1,24 @@
+
+#formWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    border: 1px pink solid
+}
+
+#fname {
+    margin-left: 10px;
+}
+
+#lname {
+    margin-left: 12px;
+}
+
+#email {
+    margin-left: 3px;
+}
+
+.roundedBorder {
+    border-radius: 25px;
+}
