@@ -19,6 +19,10 @@
     margin-left: 3px;
 }
 
+#subject {
+    margin-left: 40px;
+}
+
 .roundedBorder {
     border-radius: 25px;
 }
