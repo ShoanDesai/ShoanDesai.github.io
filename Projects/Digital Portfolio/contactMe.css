@@ -1,4 +1,15 @@
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #01012e;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
 #formWrapper {
     display: flex;
     justify-content: center;
@@ -16,13 +27,48 @@
 }
 
 #email {
-    margin-left: 3px;
+    margin-left: 7px;
 }
 
-#subject {
-    margin-left: 40px;
+#_subject {
+    margin-left: 43px;
 }
+
 
 .roundedBorder {
     border-radius: 25px;
+    font-size: small;
+}
+
+#message {
+    border-radius: 10px;
+    font-size: small;
+}
+
+.hoverButton {
+    background: none;
+    color: #15cfe0;
+    /*width: 300px;
+    height: 100px;*/
+    border: 2px solid;
+   /* padding: 1em 2em;*/
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    transition: border-color 0.25s, color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.hoverButton:hover {
+    border-color: blue;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #7a5cff;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+section { 
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid wheat;
 }
