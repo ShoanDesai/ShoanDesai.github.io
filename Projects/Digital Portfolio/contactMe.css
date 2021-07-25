@@ -3,19 +3,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #01012e;
     color: aliceblue;
     font-weight: bolder;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
 }
 
 #formWrapper {
     display: flex;
+    position: fixed;
+
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
     border: 1px pink solid
 }
 
@@ -42,6 +43,7 @@ body {
 }
 
 #message {
+    display: flex;
     border-radius: 10px;
     font-size: small;
     
@@ -71,16 +73,34 @@ body {
 }
 
 section { 
-
+    margin: 200px;
     border: 1px solid wheat;
+    display: flex;
+    flex-direction: column;
 }
 
 form {
-   
+    
     border: 1px solid rgb(146, 99, 11);
 }
 
 .buttonClass {
     display: flex;
     justify-content: flex-end;
+}
+
+@media (max-width: 550px) {
+
+    #message {
+        width: 400px;
+        
+    }
+}
+
+@media (max-width: 420px) {
+
+    #message {
+        width: 350px;
+        
+    }
 }
