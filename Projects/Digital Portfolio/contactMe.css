@@ -17,7 +17,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px pink solid
 }
 
 #fname {
@@ -33,7 +32,7 @@ body {
 }
 
 #_subject {
-    margin-left: 43px;
+    margin-left: 40px;
 }
 
 
@@ -74,15 +73,11 @@ body {
 
 section { 
     margin: 200px;
-    border: 1px solid wheat;
     display: flex;
     flex-direction: column;
 }
 
-form {
-    
-    border: 1px solid rgb(146, 99, 11);
-}
+
 
 .buttonClass {
     display: flex;
