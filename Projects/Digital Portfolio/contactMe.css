@@ -48,6 +48,10 @@ body {
     
 }
 
+#formWrapper {
+    transform: scale(1.5);
+}
+
 .hoverButton {
     display: inline-block;
     background: none;
@@ -84,11 +88,27 @@ section {
     justify-content: flex-end;
 }
 
+@media (max-width: 770px) {
+
+    #message {
+        width: 450px;
+        
+    }
+
+    #formWrapper {
+    transform: scale(1);
+    }
+}
+
 @media (max-width: 550px) {
 
     #message {
         width: 400px;
         
+    }
+
+    #formWrapper {
+    transform: scale(1);
     }
 }
 
@@ -98,4 +118,9 @@ section {
         width: 350px;
         
     }
+
+    #formWrapper {
+    transform: scale(1);
+    }
+
 }
