@@ -96,6 +96,7 @@ button:hover {
 
     #pageBox {
         width: 100%;
+        overflow-x: hidden;
     }
 
 }
