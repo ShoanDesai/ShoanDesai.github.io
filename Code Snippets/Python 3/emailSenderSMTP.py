@@ -6,6 +6,6 @@ for element in range ( 0 , 10 ) :
     message = f 'Subject: { subject } \n\n { body } ' print ( "Starting to send Email..." ) 
     with smtplib.SMTP_SSL ( 'smtp.gmail.com' , 465 ) as server : 
         server.login ( "adamsmsgateway@gmail.com" , "V@lidPassword123" )
-        reciever =  "als29192@gmail.com"
+        reciever =  "enterEmailHere@gmail.com"
         server.sendmail ( "adamsmsgateway@gmail.com" , reciever, message ) 
         print ( "Email Sent" )
